@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+}
+
+#root{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-table{
+    background-color: #323232;
+    display: flex;
+}
+
+.header-table p{
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+.body-table{
+    display: flex;
+    flex-direction: column;
+}
+
+.casper{
+    display: flex;
+}
+
+
+.casper:nth-child(even){
+    background-color: rgb(233, 233, 233);
+}
+
+.casper p {
+    text-align: center;
+    width: 100%;
+    padding: 7px;
+}
